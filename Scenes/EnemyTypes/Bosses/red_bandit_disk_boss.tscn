@@ -30,7 +30,8 @@ enemy_projectile = ExtResource("2_lbj0d")
 health = 100
 points = 1000
 damage = 5
-drop_items = Array[PackedScene]([ExtResource("3_3dlmb"), ExtResource("3_3dlmb"), ExtResource("4_8qpvk")])
+drop_all_items_on_death = true
+drop_items = Array[PackedScene]([ExtResource("3_3dlmb"), ExtResource("4_8qpvk")])
 rotation_speed = 10.0
 
 [node name="IdleSprite" type="Sprite2D" parent="."]

@@ -40,6 +40,7 @@ enemy_projectile = ExtResource("3_0jv7d")
 health = 2000
 points = 2000
 damage = 5
+drop_all_items_on_death = true
 drop_items = Array[PackedScene]([ExtResource("4_5vsdq"), ExtResource("5_54u01")])
 rotation_speed = 20.0
 
