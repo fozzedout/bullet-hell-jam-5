@@ -4,8 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://cmfvckpkjo1a3" path="res://Scenes/EnemyTypes/Bandits/Scouts/red_bandit_scout_2.tscn" id="2_sawjn"]
 
 [node name="Create an instance with an enemy" type="PathFollow2D"]
-position = Vector2(-22, 58)
-rotation = -1.19558
+rotates = false
 loop = false
 script = ExtResource("1_aa6c8")
 runSpeed = 150

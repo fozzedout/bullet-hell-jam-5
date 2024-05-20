@@ -16,7 +16,7 @@ collision_layer = 130
 collision_mask = 129
 script = ExtResource("1_2i4wk")
 speed = 650
-damage = 10
+damage = 20
 rotates = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

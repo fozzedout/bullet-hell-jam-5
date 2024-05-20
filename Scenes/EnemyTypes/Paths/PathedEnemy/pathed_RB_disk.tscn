@@ -11,3 +11,5 @@ script = ExtResource("1_814ei")
 runSpeed = 30
 
 [node name="RedBanditDisk" parent="." instance=ExtResource("2_e344h")]
+isPath = true
+is_move_x = false

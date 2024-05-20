@@ -5,3 +5,4 @@
 [node name="RedBanditEnemy2TopspawnX" instance=ExtResource("1_h63rb")]
 isPath = false
 is_move_x = true
+target_y = 80.0

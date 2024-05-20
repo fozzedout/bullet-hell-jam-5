@@ -8,3 +8,5 @@ func _ready():
 	# Disable physics processing and visibility
 	player.set_physics_process(false) 
 	player.visible = false
+
+

@@ -16,7 +16,7 @@ collision_layer = 130
 collision_mask = 129
 script = ExtResource("1_ordqw")
 speed = 700
-damage = 5
+damage = 10
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 material = SubResource("ShaderMaterial_rgx4h")

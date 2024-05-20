@@ -156,6 +156,7 @@ scale_amount_min = 1.5
 scale_amount_max = 4.0
 
 [node name="StarsBlue" type="CPUParticles2D" parent="."]
+visible = false
 material = SubResource("ShaderMaterial_uan7o")
 position = Vector2(358, -38)
 scale = Vector2(1, 5)
@@ -177,7 +178,6 @@ scale_amount_min = 1.5
 scale_amount_max = 3.5
 
 [node name="StarsGreen" type="CPUParticles2D" parent="."]
-visible = false
 material = SubResource("ShaderMaterial_y2ynt")
 position = Vector2(358, -38)
 scale = Vector2(1, 5)
@@ -199,6 +199,7 @@ scale_amount_min = 1.5
 scale_amount_max = 3.0
 
 [node name="StarsRed" type="CPUParticles2D" parent="."]
+visible = false
 material = SubResource("ShaderMaterial_ba7pe")
 position = Vector2(358, -38)
 scale = Vector2(1, 5)
@@ -338,6 +339,7 @@ centered = false
 [connection signal="isBossSignal" from="." to="BossPath/Boss" method="_on_level_is_boss_signal"]
 [connection signal="game_unpaused" from="GeneralUI/PauseMenu" to="." method="_on_pause_menu_game_unpaused"]
 [connection signal="redirect_quit" from="GeneralUI/PauseMenu" to="." method="_on_pause_menu_redirect_quit"]
+[connection signal="restart" from="GeneralUI/GameOverMenu" to="." method="_on_game_over_menu_restart"]
 [connection signal="toMainMenu" from="GeneralUI/GameOverMenu" to="." method="_on_game_over_menu_to_main_menu"]
 [connection signal="timeout" from="EnemySpawnTimer" to="." method="_on_enemy_spawn_timer_timeout"]
 [connection signal="timeout" from="EnemySpawnTimer2" to="." method="_on_enemy_spawn_timer2_timeout"]

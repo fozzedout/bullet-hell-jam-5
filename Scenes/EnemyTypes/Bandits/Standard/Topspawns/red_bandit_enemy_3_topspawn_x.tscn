@@ -7,4 +7,5 @@
 [node name="RedBanditEnemy3TopspawnX" instance=ExtResource("1_q52re")]
 isPath = false
 is_move_x = true
+target_y = 60.0
 drop_items = Array[PackedScene]([ExtResource("3_c7frt"), ExtResource("3_mdv11")])

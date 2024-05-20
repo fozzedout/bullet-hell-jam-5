@@ -1,29 +1,31 @@
-[gd_scene load_steps=33 format=3 uid="uid://d4ajc7t8djevv"]
+[gd_scene load_steps=35 format=3 uid="uid://jouq5h65e6r"]
 
-[ext_resource type="Script" path="res://Scripts/Managers/GameManager.gd" id="1_h1jmy"]
-[ext_resource type="PackedScene" uid="uid://cmhnxqj11gw2y" path="res://Scenes/EnemyTypes/Asteroids/smallAsteroid.tscn" id="2_pij0r"]
-[ext_resource type="PackedScene" uid="uid://k8u4m4kvxiyw" path="res://Scenes/EnemyTypes/Asteroids/large_asteroid.tscn" id="3_63flm"]
-[ext_resource type="PackedScene" uid="uid://iw0fvddkujpw" path="res://Scenes/EnemyTypes/Asteroids/small_asteroid_2.tscn" id="3_qwdw7"]
-[ext_resource type="PackedScene" uid="uid://b7o7lrscftk1p" path="res://Scenes/EnemyTypes/Asteroids/small_asteroid_3.tscn" id="4_yi7p7"]
-[ext_resource type="PackedScene" uid="uid://mo0pgjfnimyk" path="res://Scenes/Collectibles/datakey.tscn" id="6_pl8mp"]
-[ext_resource type="PackedScene" uid="uid://yfsad70u8ibk" path="res://Scenes/UI/hud.tscn" id="7_b2eam"]
-[ext_resource type="PackedScene" uid="uid://w53t7853qd3e" path="res://Scenes/Collectibles/green_moola.tscn" id="7_mjndh"]
-[ext_resource type="PackedScene" uid="uid://dshm0ml172ysd" path="res://Scenes/UI/pause_menu.tscn" id="8_38r7g"]
-[ext_resource type="PackedScene" uid="uid://wf480iyhglux" path="res://Scenes/UI/game_over_menu.tscn" id="9_3flf2"]
-[ext_resource type="PackedScene" uid="uid://caxy4iq6q5mi2" path="res://Scenes/Sound/music.tscn" id="10_iakvf"]
-[ext_resource type="PackedScene" uid="uid://cq6uf1dq0h6ed" path="res://Scenes/Backgrounds/scrolling_background.tscn" id="11_w7qr8"]
-[ext_resource type="Shader" path="res://Assets/Materials/ColourChange.gdshader" id="12_d5hs4"]
-[ext_resource type="FontFile" uid="uid://bn8ixkqxgo7du" path="res://Assets/Fonts/8bitOperatorPlus-Bold.ttf" id="13_dmm0y"]
-[ext_resource type="Script" path="res://Scripts/EnemyTypes/EnemyPath1Node.gd" id="16_d2vja"]
-[ext_resource type="PackedScene" uid="uid://bsy3062e7psov" path="res://Scenes/EnemyTypes/Paths/PathedEnemy/PathedBosses/Boss_Suspicious_Rock.tscn" id="16_lyu3m"]
-[ext_resource type="Texture2D" uid="uid://dcykx2pr50vxl" path="res://Assets/Artwork/Backgrounds/Backgrounds_0000s_0002_Cosmos2.png" id="17_4eb1y"]
-[ext_resource type="PackedScene" uid="uid://du5sxlan0e6sa" path="res://Scenes/EnemyTypes/Paths/PathedEnemy/pathed_small_asteroid2.tscn" id="17_g7nwx"]
-[ext_resource type="Texture2D" uid="uid://cl3mim5x8561n" path="res://Assets/Artwork/Backgrounds/Backgrounds_0000s_0003_Cosmos.png" id="18_1ongc"]
-[ext_resource type="PackedScene" uid="uid://cuoxcks6aex5s" path="res://Scenes/EnemyTypes/Paths/PathedEnemy/pathed_small_asteroid3.tscn" id="18_4wnhm"]
-[ext_resource type="Texture2D" uid="uid://dmg8detufujto" path="res://Assets/Artwork/Backgrounds/Backgrounds_0000s_0004_MistPatch.png" id="19_p4fsl"]
+[ext_resource type="Script" path="res://Scripts/Managers/GameManager.gd" id="1_b1n4j"]
+[ext_resource type="PackedScene" uid="uid://cup1dkh5844gj" path="res://Scenes/EnemyTypes/Bandits/Standard/Topspawns/red_bandit_enemy_topspawn_y.tscn" id="2_na785"]
+[ext_resource type="PackedScene" uid="uid://c7q06ed5tngrs" path="res://Scenes/EnemyTypes/Bandits/Standard/Topspawns/red_bandit_enemy_topspawn_x.tscn" id="3_1v4do"]
+[ext_resource type="PackedScene" uid="uid://w53t7853qd3e" path="res://Scenes/Collectibles/green_moola.tscn" id="4_6r1u1"]
+[ext_resource type="PackedScene" uid="uid://mheqo4c4rvyj" path="res://Scenes/EnemyTypes/Bandits/Standard/Topspawns/red_bandit_enemy_2_topspawn_y.tscn" id="4_sl0rx"]
+[ext_resource type="PackedScene" uid="uid://wvk1s2cu8gpm" path="res://Scenes/Collectibles/health_pickup.tscn" id="5_7lxek"]
+[ext_resource type="PackedScene" uid="uid://cx0b3l805x0rc" path="res://Scenes/Collectibles/blue_moola.tscn" id="6_lmtm3"]
+[ext_resource type="PackedScene" uid="uid://bc0iwwy5ej8xg" path="res://Scenes/Collectibles/red_moola.tscn" id="7_5166w"]
+[ext_resource type="PackedScene" uid="uid://ckbu88kp4002a" path="res://Scenes/EnemyTypes/Bosses/red_bandit_disk_boss.tscn" id="8_8f36a"]
+[ext_resource type="PackedScene" uid="uid://mo0pgjfnimyk" path="res://Scenes/Collectibles/datakey.tscn" id="9_vw270"]
+[ext_resource type="PackedScene" uid="uid://yfsad70u8ibk" path="res://Scenes/UI/hud.tscn" id="10_q26ag"]
+[ext_resource type="PackedScene" uid="uid://dshm0ml172ysd" path="res://Scenes/UI/pause_menu.tscn" id="11_eal1b"]
+[ext_resource type="PackedScene" uid="uid://wf480iyhglux" path="res://Scenes/UI/game_over_menu.tscn" id="12_ejx12"]
+[ext_resource type="PackedScene" uid="uid://caxy4iq6q5mi2" path="res://Scenes/Sound/music.tscn" id="13_ungq7"]
+[ext_resource type="PackedScene" uid="uid://cq6uf1dq0h6ed" path="res://Scenes/Backgrounds/scrolling_background.tscn" id="14_t074w"]
+[ext_resource type="Shader" path="res://Assets/Materials/ColourChange.gdshader" id="15_prvja"]
+[ext_resource type="FontFile" uid="uid://bn8ixkqxgo7du" path="res://Assets/Fonts/8bitOperatorPlus-Bold.ttf" id="16_eie4x"]
+[ext_resource type="Script" path="res://Scripts/EnemyTypes/EnemyPath1Node.gd" id="17_o762t"]
+[ext_resource type="PackedScene" uid="uid://cnpfvspijyli5" path="res://Scenes/EnemyTypes/Paths/PathedEnemy/RedBanditScoutPath2.tscn" id="19_ei0po"]
+[ext_resource type="PackedScene" uid="uid://bsy3062e7psov" path="res://Scenes/EnemyTypes/Paths/PathedEnemy/PathedBosses/Boss_Suspicious_Rock.tscn" id="19_yl3gi"]
+[ext_resource type="Texture2D" uid="uid://dcykx2pr50vxl" path="res://Assets/Artwork/Backgrounds/Backgrounds_0000s_0002_Cosmos2.png" id="20_4dtyn"]
+[ext_resource type="Texture2D" uid="uid://cl3mim5x8561n" path="res://Assets/Artwork/Backgrounds/Backgrounds_0000s_0003_Cosmos.png" id="21_jfsos"]
+[ext_resource type="Texture2D" uid="uid://dmg8detufujto" path="res://Assets/Artwork/Backgrounds/Backgrounds_0000s_0004_MistPatch.png" id="22_yye2f"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_x5hwq"]
-shader = ExtResource("12_d5hs4")
+shader = ExtResource("15_prvja")
 shader_parameter/custom_color = Color(1, 1, 1, 0.654902)
 
 [sub_resource type="Curve" id="Curve_gk5at"]
@@ -33,22 +35,22 @@ _data = [Vector2(0, -4.61755), 0.0, 0.0, 0, 0, Vector2(0.385475, -91.3254), 0.0,
 point_count = 4
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_uan7o"]
-shader = ExtResource("12_d5hs4")
+shader = ExtResource("15_prvja")
 shader_parameter/custom_color = Color(0, 1, 1, 0.552941)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_y2ynt"]
-shader = ExtResource("12_d5hs4")
+shader = ExtResource("15_prvja")
 shader_parameter/custom_color = Color(0.26, 1, 0.26, 0.588235)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ba7pe"]
-shader = ExtResource("12_d5hs4")
+shader = ExtResource("15_prvja")
 shader_parameter/custom_color = Color(1, 0.28, 0.28, 0.533333)
 
 [sub_resource type="Curve2D" id="Curve2D_xrgcs"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, -66, -11, -37.7758, 1.34914, 37.7758, -1.34914, 275, -65, 0, 0, 0, 0, 661, -35)
+"points": PackedVector2Array(0, 0, 0, 0, -47, -5.7883, -72, 0, 72, 0, 200, 179.212, -66, 0, 66, 0, 331, 35.2117, -86, 8, 86, -8, 501, 189.212, 0, 0, 0, 0, 701, 3.2117)
 }
-point_count = 3
+point_count = 5
 
 [sub_resource type="Curve2D" id="Curve2D_1w8cs"]
 _data = {
@@ -57,54 +59,39 @@ _data = {
 point_count = 27
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_h4i3t"]
-shader = ExtResource("12_d5hs4")
+shader = ExtResource("15_prvja")
 shader_parameter/custom_color = Color(1, 1, 1, 0.188235)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_7covv"]
-shader = ExtResource("12_d5hs4")
-shader_parameter/custom_color = Color(0.439216, 0.439216, 0.439216, 0.447059)
+shader = ExtResource("15_prvja")
+shader_parameter/custom_color = Color(0.171726, 0.785771, 0.695658, 0.447059)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_1fyke"]
-shader = ExtResource("12_d5hs4")
-shader_parameter/custom_color = Color(0.908983, 0.335863, 0.598707, 0.623529)
+shader = ExtResource("15_prvja")
+shader_parameter/custom_color = Color(0.144253, 0.549857, 0.928399, 0.623529)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_jwjuj"]
-shader = ExtResource("12_d5hs4")
-shader_parameter/custom_color = Color(0.439216, 0.439216, 0.439216, 0.407843)
+shader = ExtResource("15_prvja")
+shader_parameter/custom_color = Color(0.160857, 0.490754, 0.532018, 0.407843)
 
 [node name="Level" type="Node2D"]
-script = ExtResource("1_h1jmy")
+script = ExtResource("1_b1n4j")
 bg_scroll_speed = 6
 bg_scroll_speed2 = 80
 bg_scroll_speed3 = 19
 bg_scroll_speed4 = 13
-enemy_scenes = Array[PackedScene]([ExtResource("2_pij0r"), ExtResource("3_qwdw7"), ExtResource("4_yi7p7")])
-enemy_spawn_timer = 2
-enemy_scenes2 = Array[PackedScene]([ExtResource("3_63flm")])
+enemy_scenes = Array[PackedScene]([ExtResource("2_na785"), ExtResource("3_1v4do")])
+enemy_spawn_timer = 4
+max_enemies = 1000
+enemy_scenes2 = Array[PackedScene]([ExtResource("4_sl0rx")])
 max_enemies2 = 5
-moola_scenes = Array[PackedScene]([ExtResource("7_mjndh")])
+moola_scenes = Array[PackedScene]([ExtResource("4_6r1u1"), ExtResource("5_7lxek"), ExtResource("6_lmtm3"), ExtResource("7_5166w")])
 moola_spawn_timer = 3
-boss_scene = ExtResource("6_pl8mp")
-is_pathed_boss = true
-data_key = ExtResource("6_pl8mp")
-
-[node name="GeneralUI" type="CanvasLayer" parent="."]
-
-[node name="HUD" parent="GeneralUI" instance=ExtResource("7_b2eam")]
-
-[node name="PauseMenu" parent="GeneralUI" instance=ExtResource("8_38r7g")]
-visible = false
-
-[node name="GameOverMenu" parent="GeneralUI" instance=ExtResource("9_3flf2")]
-visible = false
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
+boss_scene = ExtResource("8_8f36a")
+data_key = ExtResource("9_vw270")
 
 [node name="EnemySpawnTimer" type="Timer" parent="."]
-wait_time = 5.0
+wait_time = 4.0
 autostart = true
 
 [node name="EnemySpawnTimer2" type="Timer" parent="."]
@@ -112,7 +99,7 @@ wait_time = 30.0
 autostart = true
 
 [node name="MoolaSpawnTimer" type="Timer" parent="."]
-wait_time = 10.0
+wait_time = 5.0
 autostart = true
 
 [node name="playerSpawn" type="Marker2D" parent="."]
@@ -130,9 +117,9 @@ position = Vector2(298, 307)
 
 [node name="MoolaContainer" type="Node2D" parent="."]
 
-[node name="Music" parent="." instance=ExtResource("10_iakvf")]
+[node name="Music" parent="." instance=ExtResource("13_ungq7")]
 
-[node name="ScrollingBackground" parent="." instance=ExtResource("11_w7qr8")]
+[node name="ScrollingBackground" parent="." instance=ExtResource("14_t074w")]
 
 [node name="Stars" type="CPUParticles2D" parent="."]
 material = SubResource("ShaderMaterial_x5hwq")
@@ -153,9 +140,10 @@ angle_min = 87.3
 angle_max = 167.3
 angle_curve = SubResource("Curve_gk5at")
 scale_amount_min = 1.5
-scale_amount_max = 3.0
+scale_amount_max = 4.0
 
 [node name="StarsBlue" type="CPUParticles2D" parent="."]
+visible = false
 material = SubResource("ShaderMaterial_uan7o")
 position = Vector2(358, -38)
 scale = Vector2(1, 5)
@@ -174,7 +162,7 @@ angle_min = 87.3
 angle_max = 167.3
 angle_curve = SubResource("Curve_gk5at")
 scale_amount_min = 1.5
-scale_amount_max = 3.0
+scale_amount_max = 3.5
 
 [node name="StarsGreen" type="CPUParticles2D" parent="."]
 material = SubResource("ShaderMaterial_y2ynt")
@@ -198,6 +186,7 @@ scale_amount_min = 1.5
 scale_amount_max = 3.0
 
 [node name="StarsRed" type="CPUParticles2D" parent="."]
+visible = false
 material = SubResource("ShaderMaterial_ba7pe")
 position = Vector2(358, -38)
 scale = Vector2(1, 5)
@@ -219,7 +208,7 @@ scale_amount_min = 1.5
 scale_amount_max = 3.0
 
 [node name="BossTimer" type="Timer" parent="."]
-wait_time = 60.0
+wait_time = 50.0
 one_shot = true
 autostart = true
 
@@ -251,47 +240,29 @@ theme_override_colors/font_color = Color(1, 1, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 7
 theme_override_constants/shadow_outline_size = 2
-theme_override_fonts/font = ExtResource("13_dmm0y")
+theme_override_fonts/font = ExtResource("16_eie4x")
 theme_override_font_sizes/font_size = 50
-text = "Suspicious Rock"
+text = "U.F.NO"
 
 [node name="EnemyFrequencyTimer2" type="Timer" parent="."]
 wait_time = 3.0
 
 [node name="Paths" type="Node2D" parent="."]
 
-[node name="Add a path_follow_2d_template3" type="Path2D" parent="Paths"]
-position = Vector2(22, 169)
+[node name="Add a path_follow_2d_template" type="Path2D" parent="."]
+position = Vector2(0, 51.7883)
 curve = SubResource("Curve2D_xrgcs")
-script = ExtResource("16_d2vja")
-activation_time = 10.0
-subject = ExtResource("18_4wnhm")
-isCycle = true
-spawnTime = 12.0
+script = ExtResource("17_o762t")
+activation_time = 15.0
+deactivation_time = 15.0
+subject = ExtResource("19_ei0po")
 
-[node name="EnemyPath1ActivationTimer" type="Timer" parent="Paths/Add a path_follow_2d_template3"]
-wait_time = 35.0
+[node name="EnemyPath1ActivationTimer" type="Timer" parent="Add a path_follow_2d_template"]
+wait_time = 15.0
 one_shot = true
 autostart = true
 
-[node name="EnemyPath1DeactivationTimer" type="Timer" parent="Paths/Add a path_follow_2d_template3"]
-wait_time = 8.0
-one_shot = true
-
-[node name="Add a path_follow_2d_template2" type="Path2D" parent="Paths"]
-position = Vector2(22, 249)
-curve = SubResource("Curve2D_xrgcs")
-script = ExtResource("16_d2vja")
-activation_time = 10.0
-subject = ExtResource("17_g7nwx")
-spawnTime = 2.0
-
-[node name="EnemyPath1ActivationTimer" type="Timer" parent="Paths/Add a path_follow_2d_template2"]
-wait_time = 20.0
-one_shot = true
-autostart = true
-
-[node name="EnemyPath1DeactivationTimer" type="Timer" parent="Paths/Add a path_follow_2d_template2"]
+[node name="EnemyPath1DeactivationTimer" type="Timer" parent="Add a path_follow_2d_template"]
 wait_time = 15.0
 one_shot = true
 
@@ -300,8 +271,8 @@ one_shot = true
 [node name="Boss" type="Path2D" parent="BossPath"]
 position = Vector2(14, 257)
 curve = SubResource("Curve2D_1w8cs")
-script = ExtResource("16_d2vja")
-subject = ExtResource("16_lyu3m")
+script = ExtResource("17_o762t")
+subject = ExtResource("19_yl3gi")
 is_boss = true
 
 [node name="EnemyPath1ActivationTimer" type="Timer" parent="BossPath/Boss"]
@@ -315,7 +286,6 @@ one_shot = true
 
 [node name="ScrollingBackground2" type="ParallaxBackground" parent="."]
 layer = -96
-visible = false
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ScrollingBackground2"]
 material = SubResource("ShaderMaterial_h4i3t")
@@ -324,7 +294,7 @@ motion_mirroring = Vector2(2.08165e-12, 400)
 [node name="Stars" type="Sprite2D" parent="ScrollingBackground2/ParallaxLayer"]
 texture_repeat = 2
 material = SubResource("ShaderMaterial_7covv")
-texture = ExtResource("17_4eb1y")
+texture = ExtResource("20_4dtyn")
 centered = false
 
 [node name="ScrollingBackground3" type="ParallaxBackground" parent="."]
@@ -336,7 +306,7 @@ motion_mirroring = Vector2(2.08165e-12, 400)
 [node name="Stars" type="Sprite2D" parent="ScrollingBackground3/ParallaxLayer"]
 texture_repeat = 2
 material = SubResource("ShaderMaterial_1fyke")
-texture = ExtResource("18_1ongc")
+texture = ExtResource("21_jfsos")
 centered = false
 
 [node name="ScrollingBackground4" type="ParallaxBackground" parent="."]
@@ -349,23 +319,36 @@ motion_mirroring = Vector2(2.08165e-12, 400)
 [node name="Stars" type="Sprite2D" parent="ScrollingBackground4/ParallaxLayer"]
 texture_repeat = 2
 material = SubResource("ShaderMaterial_jwjuj")
-texture = ExtResource("19_p4fsl")
+texture = ExtResource("22_yye2f")
 centered = false
 
+[node name="GeneralUI" type="CanvasLayer" parent="."]
+
+[node name="HUD" parent="GeneralUI" instance=ExtResource("10_q26ag")]
+
+[node name="PauseMenu" parent="GeneralUI" instance=ExtResource("11_eal1b")]
+visible = false
+
+[node name="GameOverMenu" parent="GeneralUI" instance=ExtResource("12_ejx12")]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+
 [connection signal="isBossSignal" from="." to="BossPath/Boss" method="_on_level_is_boss_signal"]
-[connection signal="game_unpaused" from="GeneralUI/PauseMenu" to="." method="_on_pause_menu_game_unpaused"]
-[connection signal="redirect_quit" from="GeneralUI/PauseMenu" to="." method="_on_pause_menu_redirect_quit"]
-[connection signal="restart" from="GeneralUI/GameOverMenu" to="." method="_on_game_over_menu_restart"]
-[connection signal="toMainMenu" from="GeneralUI/GameOverMenu" to="." method="_on_game_over_menu_to_main_menu"]
 [connection signal="timeout" from="EnemySpawnTimer" to="." method="_on_enemy_spawn_timer_timeout"]
 [connection signal="timeout" from="EnemySpawnTimer2" to="." method="_on_enemy_spawn_timer2_timeout"]
 [connection signal="timeout" from="MoolaSpawnTimer" to="." method="_on_moola_spawn_timer_timeout"]
 [connection signal="timeout" from="BossTimer" to="." method="_on_boss_timer_timeout"]
 [connection signal="timeout" from="EnemyFrequencyTimer2" to="." method="_on_enemy_frequency_timer2_timeout"]
-[connection signal="timeout" from="Paths/Add a path_follow_2d_template3/EnemyPath1ActivationTimer" to="Paths/Add a path_follow_2d_template3" method="_on_enemy_path_1_activation_timer_timeout"]
-[connection signal="timeout" from="Paths/Add a path_follow_2d_template3/EnemyPath1DeactivationTimer" to="Paths/Add a path_follow_2d_template3" method="_on_enemy_path_1_deactivation_timer_timeout"]
-[connection signal="timeout" from="Paths/Add a path_follow_2d_template2/EnemyPath1ActivationTimer" to="Paths/Add a path_follow_2d_template2" method="_on_enemy_path_1_activation_timer_timeout"]
-[connection signal="timeout" from="Paths/Add a path_follow_2d_template2/EnemyPath1DeactivationTimer" to="Paths/Add a path_follow_2d_template2" method="_on_enemy_path_1_deactivation_timer_timeout"]
+[connection signal="timeout" from="Add a path_follow_2d_template/EnemyPath1ActivationTimer" to="Add a path_follow_2d_template" method="_on_enemy_path_1_activation_timer_timeout"]
+[connection signal="timeout" from="Add a path_follow_2d_template/EnemyPath1DeactivationTimer" to="Add a path_follow_2d_template" method="_on_enemy_path_1_deactivation_timer_timeout"]
 [connection signal="defeatPass" from="BossPath/Boss" to="." method="_spawn_data_core"]
 [connection signal="timeout" from="BossPath/Boss/EnemyPath1ActivationTimer" to="BossPath/Boss" method="_on_enemy_path_1_activation_timer_timeout"]
 [connection signal="timeout" from="BossPath/Boss/EnemyPath1DeactivationTimer" to="BossPath/Boss" method="_on_enemy_path_1_deactivation_timer_timeout"]
+[connection signal="game_unpaused" from="GeneralUI/PauseMenu" to="." method="_on_pause_menu_game_unpaused"]
+[connection signal="redirect_quit" from="GeneralUI/PauseMenu" to="." method="_on_pause_menu_redirect_quit"]
+[connection signal="restart" from="GeneralUI/GameOverMenu" to="." method="_on_game_over_menu_restart"]
+[connection signal="toMainMenu" from="GeneralUI/GameOverMenu" to="." method="_on_game_over_menu_to_main_menu"]

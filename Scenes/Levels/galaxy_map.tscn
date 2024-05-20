@@ -74,20 +74,6 @@ scale = Vector2(2, 2)
 layout_mode = 2
 text = "Upgrade"
 
-[node name="VBoxContainer3" type="VBoxContainer" parent="UI/Control/Corner Buttons"]
-layout_mode = 1
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = 506.0
-offset_right = 600.0
-offset_bottom = 40.0
-grow_horizontal = 0
-
-[node name="SaveGame" type="Button" parent="UI/Control/Corner Buttons/VBoxContainer3"]
-layout_mode = 2
-text = "Save Game"
-
 [node name="VBoxContainer4" type="VBoxContainer" parent="UI/Control/Corner Buttons"]
 layout_mode = 1
 anchors_preset = 3
@@ -538,16 +524,16 @@ offset_bottom = -35.0
 
 [node name="Level10" type="Button" parent="UI/Levels"]
 layout_mode = 0
-offset_left = 336.0
+offset_left = 321.0
 offset_top = 306.0
-offset_right = 374.0
+offset_right = 388.0
 offset_bottom = 350.0
 theme_override_colors/font_color = Color(1, 1, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 4
 theme_override_fonts/font = ExtResource("4_lnjgn")
 theme_override_font_sizes/font_size = 25
-text = "10"
+text = "WIN!"
 
 [node name="Control" type="Control" parent="UI/Levels/Level10"]
 visible = false

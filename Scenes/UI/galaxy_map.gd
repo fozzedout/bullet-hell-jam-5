@@ -249,8 +249,7 @@ func _on_level_9_pressed():
 
 
 func _on_level_10_pressed():
-	reactivate_player()  # Enable the player (if needed)
-	get_tree().change_scene_to_file("res://Scenes/Levels/level10.tscn") 
+	get_tree().change_scene_to_file("res://Scenes/Levels/MainMenu/main_menu_scene.tscn") 
 
 
 func _on_level_11_pressed():

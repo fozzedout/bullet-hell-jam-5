@@ -1,44 +1,45 @@
-[gd_scene load_steps=12 format=3 uid="uid://duk44q0mjjdbi"]
+[gd_scene load_steps=12 format=3 uid="uid://ckbu88kp4002a"]
 
-[ext_resource type="Script" path="res://Scripts/EnemyTypes/RedBanditDisk.gd" id="1_cfvvm"]
-[ext_resource type="PackedScene" uid="uid://bufb1ehvi0tey" path="res://Scenes/Player/Projectiles/disk_projectiles2.tscn" id="2_oiebj"]
-[ext_resource type="PackedScene" uid="uid://4hwskl7cdjwp" path="res://Scenes/Collectibles/yellow_moola.tscn" id="3_1o76m"]
-[ext_resource type="PackedScene" uid="uid://sl443ov1jh01" path="res://Scenes/Collectibles/full_heal.tscn" id="4_nuc0d"]
-[ext_resource type="Shader" path="res://Assets/Materials/ColourChange.gdshader" id="5_rt181"]
-[ext_resource type="Texture2D" uid="uid://d4eu1go4xgmo2" path="res://Assets/Artwork/Enemy/Ships/enemies_0001_RedBanditPlasmaBomber.png" id="6_gdygk"]
-[ext_resource type="Texture2D" uid="uid://c1w4sgjearoeq" path="res://Assets/Artwork/Enemy/Ships/enemies_0000_RedBanditPlasmaBomber-Attack.png" id="7_xwhs6"]
-[ext_resource type="AudioStream" uid="uid://bfhwuoybiweva" path="res://Assets/Audio/explosion.wav" id="8_l27li"]
-[ext_resource type="AudioStream" uid="uid://p8qpbb4ygjyb" path="res://Assets/Audio/impactHurt.wav" id="9_d2v8m"]
+[ext_resource type="Script" path="res://Scripts/EnemyTypes/RedBanditDisk.gd" id="1_08dg6"]
+[ext_resource type="PackedScene" uid="uid://skwqxtnnnrto" path="res://Scenes/Player/Projectiles/disk_projectiles_boss.tscn" id="2_lbj0d"]
+[ext_resource type="PackedScene" uid="uid://4hwskl7cdjwp" path="res://Scenes/Collectibles/yellow_moola.tscn" id="3_3dlmb"]
+[ext_resource type="PackedScene" uid="uid://mo0pgjfnimyk" path="res://Scenes/Collectibles/datakey.tscn" id="4_8qpvk"]
+[ext_resource type="Shader" path="res://Assets/Materials/ColourChange.gdshader" id="5_rmmex"]
+[ext_resource type="Texture2D" uid="uid://d4eu1go4xgmo2" path="res://Assets/Artwork/Enemy/Ships/enemies_0001_RedBanditPlasmaBomber.png" id="6_0dhp8"]
+[ext_resource type="Texture2D" uid="uid://c1w4sgjearoeq" path="res://Assets/Artwork/Enemy/Ships/enemies_0000_RedBanditPlasmaBomber-Attack.png" id="7_7aya2"]
+[ext_resource type="AudioStream" uid="uid://bfhwuoybiweva" path="res://Assets/Audio/explosion.wav" id="8_f2q6i"]
+[ext_resource type="AudioStream" uid="uid://p8qpbb4ygjyb" path="res://Assets/Audio/impactHurt.wav" id="9_0oaje"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_x8lsb"]
-shader = ExtResource("5_rt181")
-shader_parameter/custom_color = Color(0, 1, 1, 1)
+shader = ExtResource("5_rmmex")
+shader_parameter/custom_color = Color(1, 0, 1, 1)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_kifcn"]
 radius = 17.0294
 
 [node name="RedBanditDisk" type="Area2D"]
+scale = Vector2(1.5, 1.5)
 collision_layer = 2
 collision_mask = 5
-script = ExtResource("1_cfvvm")
+script = ExtResource("1_08dg6")
 is_move_y = false
 x_speed = 30.0
 y_speed = 100.0
-rate_of_fire = 0.8
-enemy_projectile = ExtResource("2_oiebj")
-health = 75
-points = 2000
+rate_of_fire = 1.0
+enemy_projectile = ExtResource("2_lbj0d")
+health = 100
+points = 1000
 damage = 5
-drop_items = Array[PackedScene]([ExtResource("3_1o76m"), ExtResource("4_nuc0d")])
-rotation_speed = 50.0
+drop_items = Array[PackedScene]([ExtResource("3_3dlmb"), ExtResource("3_3dlmb"), ExtResource("4_8qpvk")])
+rotation_speed = 10.0
 
 [node name="IdleSprite" type="Sprite2D" parent="."]
 material = SubResource("ShaderMaterial_x8lsb")
-texture = ExtResource("6_gdygk")
+texture = ExtResource("6_0dhp8")
 
 [node name="AttackSprite" type="Sprite2D" parent="."]
 visible = false
-texture = ExtResource("7_xwhs6")
+texture = ExtResource("7_7aya2")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
@@ -66,12 +67,12 @@ position = Vector2(13, -11)
 rotation = -2.35619
 
 [node name="SfxExplode" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("8_l27li")
+stream = ExtResource("8_f2q6i")
 max_polyphony = 4
 bus = &"Enemy_SFX"
 
 [node name="SfxHitHurt" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("9_d2v8m")
+stream = ExtResource("9_0oaje")
 max_polyphony = 4
 bus = &"Enemy_SFX"
 
@@ -83,8 +84,7 @@ offset_top = -30.0
 offset_right = 173.0
 offset_bottom = 20.0
 scale = Vector2(0.2, 0.2)
-max_value = 75.0
-value = 75.0
+value = 100.0
 rounded = true
 show_percentage = false
 

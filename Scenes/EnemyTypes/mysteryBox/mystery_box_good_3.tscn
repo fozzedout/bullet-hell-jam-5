@@ -4,4 +4,5 @@
 [ext_resource type="PackedScene" uid="uid://4hwskl7cdjwp" path="res://Scenes/Collectibles/yellow_moola.tscn" id="2_q47cs"]
 
 [node name="MysteryBoxGood3" instance=ExtResource("1_veyet")]
+health = 2
 drop_items = Array[PackedScene]([ExtResource("2_q47cs"), ExtResource("2_q47cs"), ExtResource("2_q47cs")])

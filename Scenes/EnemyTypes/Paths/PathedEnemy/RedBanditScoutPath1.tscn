@@ -5,7 +5,6 @@
 
 [node name="Create an instance with an enemy" type="PathFollow2D"]
 position = Vector2(-22, 58)
-rotation = -1.19558
 loop = false
 script = ExtResource("1_ptvqg")
 runSpeed = 100

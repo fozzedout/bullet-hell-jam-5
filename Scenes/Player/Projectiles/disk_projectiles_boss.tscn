@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://skwqxtnnnrto"]
+
+[ext_resource type="PackedScene" uid="uid://ha8ykc7pba1a" path="res://Scenes/Player/Projectiles/enemyProjectile.tscn" id="1_cs3nn"]
+[ext_resource type="Texture2D" uid="uid://g8bwxfbk763e" path="res://Assets/Artwork/bullets/shot.png" id="2_ewt4i"]
+
+[node name="DiskProjectiles" instance=ExtResource("1_cs3nn")]
+z_index = -4
+speed = 50
+damage = 20
+rotates = true
+
+[node name="Sprite2D" parent="." index="0"]
+scale = Vector2(2, 2)
+texture = ExtResource("2_ewt4i")
+
+[node name="CollisionShape2D" parent="." index="1"]
+scale = Vector2(2, 2)
