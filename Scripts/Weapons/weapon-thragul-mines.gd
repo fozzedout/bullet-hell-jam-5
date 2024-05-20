@@ -38,7 +38,7 @@ func shoot():
 	if not fire_when_ready:
 		return
 
-	for rot in range(-60, 61, 11-power):
+	for rot in range(-60, 61, 31-power):
 		CreateBullet(deg_to_rad(rot))
 
 	$Cooldown.wait_time = weapon["base rate"] - (weapon["level rate"] * (power - 1) )
